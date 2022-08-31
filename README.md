@@ -1,2 +1,5 @@
 # platformer-game.github.io
 Platformer Official Website
+
+You may not use parts of my code or the entire code for your own purposes.
+(c) 2022 Andromeda
