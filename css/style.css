@@ -601,7 +601,7 @@ ul.social-icons {
     text-align: center;
 }
 .social-icons li {
-    vertical-align: top;
+    vertical-align: left;
     display: inline;
     height: 300px;
     margin-top: 100px;
