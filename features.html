@@ -82,7 +82,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <script type="text/javascript">
-                var links = ["www.youtube.com/channel/UCqLkB0ikeZudFq3xYeXhJoA", "discord.gg/4m3zwxyevf"];
+                var links = ["http://www.youtube.com/channel/UCqLkB0ikeZudFq3xYeXhJoA", "http://discord.gg/4m3zwxyevf", "http://twitter.com/platformergame", "http://t.me/platformer_game", "http://invite.viber.com/?g2=AQAK0%2BUfHu51T0%2FLLdJyixvGzjpgB4XJR8hCsYnlowvjCQd95KRIk%2F%2BHTfuCNm3C"];
                 var link_name;
 
               function randomLink() {
@@ -91,7 +91,7 @@
                   // round it, so it can be used as array index
                   randIdx = parseInt(randIdx, 10);
                   // construct the link to be opened
-                  var link = 'http://' + links[randIdx];
+                  var link = links[randIdx];
                       return link;
               };
 
@@ -99,10 +99,19 @@
 
               switch(random_link) {
                 case "http://www.youtube.com/channel/UCqLkB0ikeZudFq3xYeXhJoA":
-                  link_name = "YouTube";
+                  link_name = "YouTube Channel";
                   break;
                 case "http://discord.gg/4m3zwxyevf":
-                  link_name = "Discord";
+                  link_name = "Discord Server";
+                  break;
+                case "http://twitter.com/platformergame":
+                  link_name = "Twitter";
+                  break;
+                case "http://t.me/platformer_game":
+                  link_name = "Telegram Channel";
+                  break;
+                case "http://invite.viber.com/?g2=AQAK0%2BUfHu51T0%2FLLdJyixvGzjpgB4XJR8hCsYnlowvjCQd95KRIk%2F%2BHTfuCNm3C":
+                  link_name = "Viber Community";
                   break;
                 default:
                   link_name = "Link";
@@ -112,8 +121,8 @@
 
               </script>
               <!-- <a href="https://www.youtube.com/channel/UCqLkB0ikeZudFq3xYeXhJoA">
-                YouTube Channel <i class="bi bi-arrow-up-right-circle"></i> -->
-              </a>
+                YouTube Channel <i class="bi bi-arrow-up-right-circle"></i> 
+              </a>-->
             </div>
           </div>
         </nav>
@@ -191,8 +200,9 @@
       <li title="YouTube Channel"><a href="https://www.youtube.com/channel/UCqLkB0ikeZudFq3xYeXhJoA" class="social-icon" target="_blank"> <i class="bi bi-youtube smicon"></i></a></li>
       <li title="Discord Server"><a href="https://discord.gg/4m3zwxyevf" class="social-icon" target="_blank"><i class="bi bi-discord smicon"></i></a></li>
       <li title="Twitter"><a href="https://twitter.com/platformergame" class="social-icon" target="_blank"><i class="bi bi-twitter smicon"></i></a></li>
-        <!-- <li title="Facebook"><a href="" class="social-icon"> <i class="fa fa-facebook smicon"></i></a></li> -->
-        <li><h4 class="_14" style="margin-top: 30px;">(More Soon..)</h4></li>
+      <li title="Telegram Channel"><a href="https://t.me/platformer_game" class="social-icon" target="_blank"><i class="bi bi-telegram smicon"></i></a></li>
+      <li title="Viber Community"><a href="https://invite.viber.com/?g2=AQAK0%2BUfHu51T0%2FLLdJyixvGzjpgB4XJR8hCsYnlowvjCQd95KRIk%2F%2BHTfuCNm3C" class="social-icon" target="_blank"><i class="fa-viber smicon">Viber</i></a></li>
+    <li><h4 class="_14" style="margin-top: 30px;">(More Soon..)</h4></li>
     </ul>
   </div>
   <hr>
